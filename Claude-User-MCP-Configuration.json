@@ -1,0 +1,15 @@
+{
+  "_comment": "Claude Configuration - User - for the terminal-based Claude Code CLI tool. How to execute and connect to your newly created MCP server. copy to your ~/.claude.json",
+  "mcpServers": {
+    "langgraph-migration-server": {
+      "command": "python",
+      "args": [
+        "-u",
+        "/absolute/path/to/your/project/mcp_agent_server.py"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "your_tavily_key"
+      }
+    }
+  }
+}

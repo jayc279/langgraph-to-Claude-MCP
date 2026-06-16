@@ -1,0 +1,15 @@
+{
+  "_comment": "Cursor Global -or- Local Configuration. How to execute and connect to your newly created MCP server. Add this snippet to your Cursor MCP settings marketplace UI, or insert it into your local workspace configuration directory (.cursor/mcp.json)",
+  "mcpServers": {
+    "langgraph-migration-server": {
+      "command": "python",
+      "args": [
+        "-u",
+        "/absolute/path/to/your/project/mcp_agent_server.py"
+      ],
+      "env": {
+        "tavily_api_key": "your_tavily_key"
+      }
+    }
+  }
+}
